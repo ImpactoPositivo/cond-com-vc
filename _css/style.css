@@ -129,6 +129,7 @@ section h1 {
 .aviso h1{
   color: var(--cor2);
   font-weight: bold;
+  font-size: .9rem;
 }
 
 .func {
@@ -158,6 +159,7 @@ section h1 {
 
 .flex a:hover {
   background-color: var(--cor4);
+  text-decoration: none;
 }
 
 .itens img {
@@ -168,10 +170,6 @@ section h1 {
 .itens p{
   font-family: var(--fonte2);
   color: var(--cor3);
-}
-
-.itens p a:hover{
-  text-decoration: none;
 }
 
 .rodape {
@@ -193,4 +191,9 @@ section h1 {
 .rodape li p{
   font-family: var(--fonte2);
   font-size: .85rem;
+}
+
+rodape li a:hover{
+  background-color: var(--cor4);
+  text-decoration: none;
 }
