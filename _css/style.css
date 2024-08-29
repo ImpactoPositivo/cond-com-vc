@@ -100,6 +100,14 @@ section {
   background-color: var(--cor2);
 }
 
+section h1 {
+  font-family: var(--fonte4);
+  color: white;
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 0 0 5px 0;
+}
+
 .brand {
   background-color: var(--cor2);
   display: flex;
@@ -111,14 +119,6 @@ section {
 
 .brand img {
   height: 12vh;
-}
-
-section h1 {
-  font-family: var(--fonte4);
-  color: white;
-  font-size: 1.3rem;
-  text-align: center;
-  padding: 0 0 5px 0;
 }
 
 .aviso {
@@ -149,14 +149,13 @@ section h1 {
 
 .contem{
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
 }
 
 .contem .container {
   display: flex;
-  align-content: center;
   align-items: center;
   column-gap: 4px;
   row-gap: 8px;
@@ -164,20 +163,18 @@ section h1 {
 }
 
 .contem .container a .flex{
-
   min-height: 90px;
   min-width: 90px;
   text-decoration: none;
 }
 
-.flex figure{
+.contem .container a .flex figure{
   display: flex;
   flex-direction: column;
-  align-content: center;
-  align-items: center; 
+  align-items: center;
 }
 
-.flex a:hover {
+.contem .container a .flex a:hover {
   background-color: var(--cor4);
   text-decoration: none;
 }
