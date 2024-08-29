@@ -68,7 +68,7 @@ body {
   max-height: 2400px;
 }
 
-.row {
+.bar-up {
   background-color: black;
   display: flex;
   justify-content: space-between;
@@ -76,21 +76,21 @@ body {
   height: 5vh;
 }
 
-.logo {
+.itens-up {
   display: flex;
 }
 
-.logo li{
+.itens-up li{
   padding: 5px;
   list-style-type: none;
 }
 
-.logo li img{
+.itens-up li img{
   height: 3vh;
   padding: 1px;
 }
 
-.logo li p{
+.itens-up li p{
   font-family: var(--fonte1);
   color: var(--cor3);
   font-size: 1.2rem;
@@ -102,14 +102,15 @@ section {
 
 .brand {
   background-color: var(--cor2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 10px;
-  margin: auto;
   height: 15vh;
 }
 
-#partner {
-  width: 80%;
-  margin: auto;
+.brand img {
+  height: 12vh;
 }
 
 section h1 {
@@ -139,25 +140,41 @@ section h1 {
   width: 90vw;
   height: 50vh;
   margin: auto;
+  border-radius: 10px;
 }
 
 .func h1 {
   padding: 15px;
 }
 
-.container {
+.contem{
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.contem .container {
+  display: flex;
+  align-content: center;
+  align-items: center;
   column-gap: 4px;
   row-gap: 8px;
   border-radius: 10px;
 }
 
-.flex {
-  flex-direction: column;
-  align-content: center;
+.contem .container a .flex{
+
   min-height: 90px;
   min-width: 90px;
   text-decoration: none;
+}
+
+.flex figure{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center; 
 }
 
 .flex a:hover {
@@ -167,42 +184,45 @@ section h1 {
 
 .itens img {
   max-height: 5vh;
-  margin: 0 auto;
 }
 
 .itens p{
   font-family: var(--fonte2);
   color: var(--cor3);
+  padding-top: 8px;
 }
 
 .bar-down {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-between;
-  padding: 10px;
-  height: 20vh;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
 }
 
-.bar-down li {
-  list-style-type: none;
+.bar-down a li {
+  display: flex;
   flex-direction: column;
-  align-content: center;
+  justify-content: center;
+  align-items: center;
   min-height: 70px;
   min-width: 70px;
+  list-style-type: none;
 }
 
-.bar-down li img{
+.bar-down a li img{
   height: 3vh;
   padding: 1px;
 }
 
-.bar-down li p{
+.bar-down a li p{
   font-family: var(--fonte1);
   color: var(--cor3);
   font-size: .8rem;
+  padding-top: 5px;
 }
 
-.bar-down li a:hover{
+.bar-down a li a:hover{
   background-color: var(--cor4);
   text-decoration: none;
 }
