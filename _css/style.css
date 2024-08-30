@@ -81,7 +81,7 @@ body {
 }
 
 .itens-up li{
-  padding: 5px;
+  padding: 5px 10px;
   list-style-type: none;
 }
 
@@ -188,6 +188,14 @@ section h1 {
   color: var(--cor3);
   padding-top: 8px;
 }
+
+/*
+.rodape{
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+}
+*/
 
 .bar-down {
   display: flex;
