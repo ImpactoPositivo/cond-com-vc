@@ -141,6 +141,9 @@ section h1 {
   height: 50vh;
   margin: auto;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .func h1 {
@@ -149,14 +152,14 @@ section h1 {
 
 .contem{
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
   margin: auto;
 }
 
 .contem .container {
   display: flex;
-  align-items: center;
+  justify-content: center;
   column-gap: 4px;
   row-gap: 8px;
   border-radius: 10px;
