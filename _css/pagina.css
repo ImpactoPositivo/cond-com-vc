@@ -81,7 +81,7 @@
 }
 
 .res-itens{
-  padding-top: 15px;
+  padding: 15px 0px;
 }
 
 .res-itens h1{
@@ -89,7 +89,7 @@
   color: white;
   font-size: 1.3rem;
   text-align: left;
-  padding: 5px;
+  padding: 10px 5px;
 }
 
 .dem-detail{
@@ -136,28 +136,37 @@
 
 .areas{
   background-color: var(--cor2);
+  display: flex;
+  justify-content: space-around;
+  row-gap: 15px;
+  margin: 10px 10px;
+  flex-wrap: wrap;
   width: 90vw;
   margin: auto;
   border-radius: 10px;
 }
 
-.areas .container {
-  display: flex;
-  justify-content: space-between;
-  margin: 10px 10px;
-}
-
-.areas .container a{
+.areas a{
   background-color: var(--cor1);
-  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 38vw;
+  height: 20vh;
   border-radius: 10px;
 }
 
-.areas .container a img{
+.itens{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.areas a img{
   padding: 10px 5px 5px 5px;
 }
 
-.areas .container a h1{
+.areas a h1{
   font-family: var(--fonte4);
   font-size: .9rem;
   color: var(--cor7);
@@ -165,7 +174,7 @@
   padding: 5px;
 }
 
-.areas .container a p{
+.areas a p{
   font-family: var(--fonte1);
   font-size: .8rem;
   color: var(--cor6);
