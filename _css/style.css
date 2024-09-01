@@ -150,26 +150,22 @@ section h1 {
   padding: 10px;
 }
 
-.contem{
+.container {
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  margin: auto;
-}
-
-.contem .container {
-  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  column-gap: 8px;
-  row-gap: 8px;
+  column-gap: 15px;
+  row-gap: 20px;
   border-radius: 10px;
 }
 
-.contem .container a .flex{
-
-  min-height: 90px;
-  min-width: 90px;
+.container a{
+  max-height: 95px;
+  max-width: 95px;
   text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .itens{
@@ -179,7 +175,7 @@ section h1 {
   align-items: center;
 }
 
-.contem .container a .flex a:hover {
+.container a .flex a:hover {
   background-color: var(--cor4);
   text-decoration: none;
 }
