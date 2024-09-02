@@ -110,6 +110,19 @@
   height: 60vh;
   margin: auto;
   border-radius: 10px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.demandas::-webkit-scrollbar{
+  width: 2px;
+  background-color: var(--cor1);
+  border-radius: 2px;
+}
+
+.demandas::-webkit-scrollbar-thumb{
+  background-color: var(--cor4);
+  border-radius: 2px;
 }
 
 .demandas ul{
