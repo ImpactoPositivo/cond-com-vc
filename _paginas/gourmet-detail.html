@@ -10,8 +10,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../_css/style.css">
         <link rel="stylesheet" href="../_css/pagina.css">
-        <link rel="shortcut icon" href="../_imagens/favicon.ico" type="image/x-icon">
-        
+        <link rel="shortcut icon" href="../_imagens/favicon.ico" type="image/x-icon">        
     </head>
     <body>
         <main>
@@ -41,19 +40,56 @@
                         <img src="../_imagens/area-gourmet.png">
                         <h1> Área Gourmet</h1>                        
                     </div>
-
                     <div class="label-detail">
-                        <label><i>Data da Reserva:</i><input type="date" id="data" name="data-reserva" /></label>
-
-                        <label><i>Quantidade de convidados:</i><input type="number" id="qtde" name="qtde-pessoas" /></label>
+                    
+                        <div class="grupo">
+                            <label><i>Data da Reserva:</i></label>
+                            <input type="date" id="data" name="data-reserva" required/>
+                        </div>
                         
+                        <div class="campo">
+                            <div class="camp1">
+                                <label><i>Nº de convidados:</i></label>
+                                <input type="number" id="qtde" name="qtde"/>
+                            </div>
+                            <div class="camp2">
+                                <label><i>Preço:</i></label>
+                                <input type="number" id="preco" name="preco">
+                            </div>
+                        </div>
+                      
+                        <div class="campo">
+                            <div class="camp1">
+                                <label><i>Status:</i></label>
+                                <input type="text" id="status" name="status"/>
+                            </div>
+                            <div>
+                                <label class="switch">
+                                    <span class="switch-text"><i>Aceito os Termos:</i></span>
+                                    <div class="switch-wrapper">
+                                        <input type="checkbox"/>
+                                        <span class="switch-button"></span>
+                                    </div>    
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div class="botao">
+                            <div id="confirma">
+                                <button>CONFIRMAR</button>
+                            </div>
+                            <div id="termo">
+                                <button>Descrição</button>
+                                <button>Termos de Uso</button>
+                            </div>
+                            
+                            <div id="lista">
+                                <button>Lista de Convidados</button>
+                            </div>
+                        </div>
 
                     </div>
-                    
-
                 </div>
-
-   
             </section>
             <footer>
                 <div class="rodape">

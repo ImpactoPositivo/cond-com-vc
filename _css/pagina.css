@@ -217,11 +217,11 @@
   background-color: var(--cor1);
   margin: auto;
   max-width: 90vw;
-  max-height: 70vh;
+  min-height: 70vh;
 }
 
 .data-detail .pic-detail{
-  max-width: 90vw;
+  min-width: 90vw;
   height: 23vh;
   position: relative;
 }
@@ -244,15 +244,162 @@
 }
 
 .data-detail .label-detail{
-  padding: 30px 20px;
+  padding: 15px 20px;
+}
+
+.label-detail{
+  display: block;
+  font-family: var(--cor1);
+  color: var(--cor7);
+}
+
+.label-detail .grupo{
+  display: flex;
+  flex-direction: column;  
+  margin-bottom: 30px;
+}
+
+.label-detail .grupo input#data{
+  width: 150px;
 }
 
 .label-detail label{
-  font-family: var(--fonte3);
-  color: white;
+  font-family: var(--fonte1);
+  color: var(--cor7);
+  font-size: .85rem;
+  padding-bottom: 5px;
 }
 
-.label-detail input{
+.label-detail .campo{
+  display: flex;
+  flex-direction: row; 
+  margin-bottom: 30px;
+}
+
+
+.label-detail .camp1{
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+.label-detail .camp1 input{
+  width: 150px;
+}
+
+.label-detail .camp2{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.label-detail .camp2 input{
+  width: 120px;
+}
+
+.switch{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.switch .switch-wrapper{
+  display: inline-block;
+  width: 35px;
+  height: 20px;
+  position: relative;
+}
+
+.switch .switch-wrapper .switch-button{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  background-color: var(--cor6);
+}
+
+.switch .switch-wrapper input{
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.switch .switch-text{
+  font-family: var(--fonte1);
+  color: var(--cor7);
+  font-size: .85rem;
+  padding-bottom: 5px;  
+}
+
+.switch .switch-wrapper .switch-button::before{
+  background-color: var(--cor1);
+  content: "";
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 2px;
+  bottom: 2px;
+  border-radius: 50%;
+  transition: .4s all ease;
+}
+
+.switch .switch-wrapper input:checked + .switch-button{
+  background-color: var(--cor3);
+}
+
+.switch .switch-wrapper input:checked + .switch-button::before{
+  transform: translateX(15px);
+}
+
+.label-detail .botao{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.label-detail #confirma button{
+  background-color: var(--cor3);
+  font-family: var(--fonte5);
+  color: var(--cor2);
+  font-weight: bold;
+  border: none;
+  width: 263px;
+  padding: 5px;
+  margin: 5px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.label-detail #termo{
+  display: flex;
+  flex-direction: row;
+}
+
+.label-detail #termo button{
+  background-color: var(--cor7);
+  font-family: var(--fonte2);
+  color: var(--cor2);
+  font-weight: bold;
+  border: none;
+  width: 125px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.label-detail #lista button{
+  background-color: var(--cor2);
   font-family: var(--fonte3);
   color: white;
+  font-weight: bold;
+  border: none;
+  width: 263px;
+  padding: 5px;
+  margin: 5px;
+
 }
