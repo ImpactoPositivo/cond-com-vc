@@ -47,7 +47,7 @@
     --cor4: #4ea7f4;    
     --cor5: #bb9828;
     --cor6: #b8b8b8;
-    --cor7: #b8b8b8;
+    --cor6: #b8b8b8;
 
     --fonte1: 'roboto-thin','helvetica','sans-serif';
     --fonte2: 'roboto-light','helvetica','sans-serif';
@@ -178,7 +178,7 @@
 .areas a h1{
   font-family: var(--fonte4);
   font-size: .9rem;
-  color: var(--cor7);
+  color: var(--cor6);
   text-align: left;
   padding: 5px;
 }
@@ -218,16 +218,9 @@
   margin: auto;
   max-width: 90vw;
   min-height: 70vh;
-}
-
-.data-detail .pic-detail{
-  min-width: 90vw;
-  height: 23vh;
-  position: relative;
-}
-
-.data-detail .pic-detail img{
-  max-width: 100%;
+  padding-bottom: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .data-detail .pic-detail h1{
@@ -250,7 +243,7 @@
 .label-detail{
   display: block;
   font-family: var(--cor1);
-  color: var(--cor7);
+  color: var(--cor6);
 }
 
 .label-detail .grupo{
@@ -265,7 +258,7 @@
 
 .label-detail label{
   font-family: var(--fonte1);
-  color: var(--cor7);
+  color: var(--cor6);
   font-size: .85rem;
   padding-bottom: 5px;
 }
@@ -332,7 +325,7 @@
 
 .switch .switch-text{
   font-family: var(--fonte1);
-  color: var(--cor7);
+  color: var(--cor6);
   font-size: .85rem;
   padding-bottom: 5px;  
 }
@@ -382,7 +375,7 @@
 }
 
 .label-detail #termo button{
-  background-color: var(--cor7);
+  background-color: var(--cor6);
   font-family: var(--fonte2);
   color: var(--cor2);
   font-weight: bold;
@@ -401,5 +394,74 @@
   width: 263px;
   padding: 5px;
   margin: 5px;
+}
 
+.data-detail .foto-cadastro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 90vw;
+  height: 23vh;
+  position: relative;
+  background-color: var(--cor6);
+}
+
+.data-detail .foto-cadastro img{
+  width: 30%;
+  padding: 5px;
+  margin: auto;
+}
+
+.data-detail .foto-cadastro .agenda{
+  width: 10vw;
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+}
+
+.data-detail .foto-cadastro h1{
+  font-family: var(--fonte5);
+  padding: 5px 20px 0px 20px;
+  background-color: var(--cor1);
+  color: white;
+  border: 1px solid #034c8c;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.cad-detail{
+  padding: 15px 0px;
+}
+
+.cad-detail .cad-registro{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  vertical-align: middle;
+  margin: 15px 0px;
+}
+
+.cad-detail .cad-registro img{
+  height: 4vh;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.cad-detail .campo{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-left: 10px;
+}
+
+.cad-detail .campo label{
+  font-family: var(--fonte1);
+  font-size: .8rem;
+  color: var(--cor6);
+  padding-bottom: 4px;
+}
+
+.cad-detail .campo input{
+  width: 70vw;
 }
