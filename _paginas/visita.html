@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=4">
-        <title>Área Goumet</title>
+        <title>Autorizar visita</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -33,61 +33,26 @@
                             <img src="../_icones/voltar.png">
                         </a>
                     </li>
-                    <li><h2>DETALHES DA RESERVA</h2></li>
+                    <li><h2>AUTORIZAR VISITAS</h2></li>
                 </ul>
                 <div class="data-detail">
-                    <div class="pic-detail">
-                        <img src="../_imagens/area-gourmet.png">
-                        <h1> Área Gourmet</h1>                        
+                    <div class="foto-cadastro">
+                        <img src="../_imagens/cadastro-foto.png">
+                        <input type="text">
+                        <img src="../_icones/cadastdro-agenda.png" class="agenda">       
                     </div>
-                    <div class="label-detail">
-                    
-                        <div class="grupo">
-                            <label><i>Data da Reserva:</i></label>
-                            <input type="date" id="data" name="data-reserva" required/>
-                        </div>
-                        
-                        <div class="campo">
-                            <div class="camp1">
-                                <label><i>Nº de convidados:</i></label>
-                                <input type="number" id="qtde" name="qtde"/>
-                            </div>
-                            <div class="camp2">
-                                <label><i>Preço:</i></label>
-                                <input type="number" id="preco" name="preco">
-                            </div>
-                        </div>
-                      
-                        <div class="campo">
-                            <div class="camp1">
-                                <label><i>Status:</i></label>
-                                <input type="text" id="status" name="status"/>
-                            </div>
-                            <div>
-                                <label class="switch">
-                                    <span class="switch-text"><i>Aceito os Termos:</i></span>
-                                    <div class="switch-wrapper">
-                                        <input type="checkbox"/>
-                                        <span class="switch-button"></span>
-                                    </div>    
-                                </label>
-                            </div>
-                        </div>
-                        
-                        <div class="botao">
-                            <div id="confirma">
-                                <button>CONFIRMAR</button>
-                            </div>
-                            <div id="termo">
-                                <button>Descrição</button>
-                                <button>Termos de Uso</button>
-                            </div>
-                            
-                            <div id="lista">
-                                <button>Lista de Convidados</button>
-                            </div>
+                    <div class="cad-detail">
+                        <div class="reg-visita">
+                            <nav>
+                                <ul>
+                                    <li class="selected"><a href="">Nova Autorização</a></li>
+                                    <li><a href="">Autorizações cadastradas</a></li>
+                                </ul>
+                            </nav>
                         </div>
 
+
+                        
                     </div>
                 </div>
             </section>

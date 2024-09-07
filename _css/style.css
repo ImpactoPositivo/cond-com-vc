@@ -192,14 +192,6 @@ section h1 {
   padding-top: 8px;
 }
 
-/*
-.rodape{
-  position: absolute;
-  bottom: 5px;
-  left: 50%;
-}
-*/
-
 .bar-down {
   display: flex;
   flex-wrap: nowrap;
