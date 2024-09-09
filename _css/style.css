@@ -41,13 +41,15 @@
 }
 
 :root {
-    --cor1: #034c8c;
-    --cor2: #023059;
-    --cor3: #fabc05;   
-    --cor4: #4ea7f4;    
-    --cor5: #bb9828;
-    --cor6: #b8b8b8;
-    --cor6: #b8b8b8;
+  --cor1: #034c8c;
+  --cor2: #023059;
+  --cor3: #fabc05;   
+  --cor4: #4ea7f4;    
+  --cor5: #bb9828;
+  --cor6: #b8b8b8;
+  --cor6: #6c6c6c;
+  --cor8: #ffffff;
+  --cor9: #000000;
 
     --fonte1: 'roboto-thin','helvetica','sans-serif';
     --fonte2: 'roboto-light','helvetica','sans-serif';
@@ -69,7 +71,7 @@ body {
 }
 
 .bar-up {
-  background-color: black;
+  background-color: var(--cor9);
   display: flex;
   justify-content: space-between;
   padding: 3px 0px;
@@ -102,7 +104,7 @@ section {
 
 section h1 {
   font-family: var(--fonte4);
-  color: white;
+  color: var(--cor8);
   font-size: 1.3rem;
   text-align: center;
   padding: 0 0 5px 0;
@@ -122,7 +124,7 @@ section h1 {
 }
 
 .aviso {
-  background-color: white;
+  background-color: var(--cor8);
   width: 90vw;
   height: 10vh;
   margin: 20px auto;
@@ -148,6 +150,7 @@ section h1 {
 
 .func h1 {
   padding: 0px;
+  color: var(--cor8);
 }
 
 .container {

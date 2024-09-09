@@ -1,0 +1,292 @@
+@charset "UTI-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+:root {
+    --cor1: #034c8c;
+    --cor2: #023059;
+    --cor3: #fabc05;   
+    --cor4: #4ea7f4;    
+    --cor5: #bb9828;
+    --cor6: #b8b8b8;
+    --cor7: #6c6c6c;
+    --cor8: #ffffff;
+    --cor9: #000000;
+
+
+    --fonte1: 'roboto-thin','helvetica','sans-serif';
+    --fonte2: 'roboto-light','helvetica','sans-serif';
+    --fonte3: 'roboto-regular','helvetica','sans-serif';
+    --fonte4: 'roboto-medium','helvetica','sans-serif';
+    --fonte5: 'roboto-bold','helvetica','sans-serif';
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0PX;
+    margin: auto;
+    list-style-type: none;
+    border-bottom: 2px solid #034c8c;
+  }
+ 
+.menu li a{
+  font-family: var(--fonte4);
+  color: var(--cor5);
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.menu li a:hover{
+  color: var(--cor3);
+  padding-bottom: 28px;
+  padding-left: 35px;
+  padding-right: 35px;
+  border-bottom: 6px solid #4ea7f4;
+}
+
+.res-itens{
+  padding: 15px 0px;
+}
+
+.res-itens h1{
+  font-family: var(--fonte4);
+  color: var(--cor8);
+  font-size: 1.3rem;
+  text-align: left;
+  padding: 10px 5px;
+}
+
+.res-detail {
+    display: flex;
+    justify-content: left;
+    vertical-align: middle;
+    align-items: center;
+    padding-top: 10px;
+    list-style-type: none;
+    border-bottom: 5px solid #4ea7f4;
+  }
+  
+  .res-detail li a img{
+    max-height: 3vh;
+    margin-left: 10px;
+  }
+  
+  .res-detail li h2{
+    font-family: var(--fonte5);
+    color: var(--cor3);
+    font-size: .8rem;
+    padding-left: 40px;
+  }
+
+.data-detail{
+    background-color: var(--cor8);
+    margin: auto;
+    max-width: 90vw;
+    min-height: 70vh;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.data-detail .foto-cadastro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 90vw;
+    height: 23vh;
+    position: relative;
+    background-color: var(--cor6);
+  }
+  
+  .data-detail .foto-cadastro img{
+    height: 70%;
+    padding: 5px;
+    margin: auto;
+  }
+
+  
+.data-detail .foto-cadastro .agenda{
+    height: 10vw;
+    position: absolute;
+    bottom: 3px;
+    right: 3px;
+  }
+  
+  .data-detail .foto-cadastro h1{
+    font-family: var(--fonte5);
+    padding: 5px 20px 0px 20px;
+    background-color: var(--cor8);
+    color: var(--cor7);
+    border: 1px solid white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  
+  .cad-detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: middle;
+    padding: 1px 0px;
+  }
+  
+  .cad-detail .cad-registro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    vertical-align: middle;
+    margin: 10px 0px;
+  }
+  
+  .cad-detail .cad-registro img{
+    height: 4vh;
+    margin-left: 10px;
+    vertical-align: middle;
+  }
+  
+  .cad-detail .campo{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 10px;
+  }
+  
+  .cad-detail .campo label{
+    font-family: var(--fonte1);
+    font-size: .8rem;
+    color: var(--cor7);
+    padding-bottom: 4px;
+  }
+  
+  .cad-detail .campo input{
+    width: 70vw;
+  }
+  
+  /* ----------------- visita.html ------------- */
+
+  .data-detail .foto-cadastro input{
+    width: 200px;
+    margin-bottom: 10px;
+  }
+
+  .cad-detail .reg-visita {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .cad-detail .reg-visita a{
+    width: 50%;
+  }
+  
+  .cad-detail .selected a{
+    font-family: var(--fonte3);
+    font-size: .9rem;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 10px;
+    background-color: var(--cor2);
+    color: var(--cor8);
+  }
+  
+  .cad-detail .unselected a{
+    font-family: var(--fonte3);
+    font-size: .9rem;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 10px;
+    background-color: var(--cor6);
+    color: var(--cor2);
+  }
+
+  .cad-detail select{
+    font-family: var(--fonte3);
+    font-size: .9rem;
+    color: var(--cor6);
+    margin: 35px 0px 5px 0px;
+    justify-content: left !important;
+  }
+
+  .cad-detail option{
+    border: 0px solid --cor8;    
+  }
+
+  .cad-detail ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    vertical-align: middle;
+  }
+
+  .cad-detail ul li{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+    width: 45vw;
+  }
+
+  .cad-detail ul li label{
+    font-family: var(--fonte1);
+    font-size: .8rem;
+    color: var(--cor7);
+    padding: 10px;
+  }
+
+  .cad-detail ul li input{
+    font-family: var(--fonte1);
+    font-size: .8rem;
+    color: var(--cor7);
+    margin: 10px;
+  }
+
+  .cad-detail button {
+    background-color: var(--cor2);
+    font-family: var(--fonte5);
+    color: var(--cor8);
+    font-weight: bold;
+    border: none;
+    width: 260px;
+    padding: 5px;
+    margin: 15px 0px 0px 0px;
+    align-items: center;
+  }

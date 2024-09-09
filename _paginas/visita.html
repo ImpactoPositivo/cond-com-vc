@@ -9,7 +9,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../_css/style.css">
-        <link rel="stylesheet" href="../_css/pagina.css">
+        <link rel="stylesheet" href="../_css/cadastro.css">
         <link rel="shortcut icon" href="../_imagens/favicon.ico" type="image/x-icon">        
     </head>
     <body>
@@ -29,7 +29,7 @@
             <section>
                 <ul class="res-detail">
                     <li>
-                        <a href="reservas.html">
+                        <a href="acessos.html">
                             <img src="../_icones/voltar.png">
                         </a>
                     </li>
@@ -43,15 +43,42 @@
                     </div>
                     <div class="cad-detail">
                         <div class="reg-visita">
-                            <nav>
-                                <ul>
-                                    <li class="selected"><a href="">Nova Autorização</a></li>
-                                    <li><a href="">Autorizações cadastradas</a></li>
-                                </ul>
-                            </nav>
+                            <div class="selected">
+                                <a href="">Nova Autorização</a>
+                            </div>
+                            <div class="unselected">
+                                <a href="">Autorizações cadastradas</a>
+                            </div>
                         </div>
 
+                        <select>
+                            <option value="1">01 - Autorização por data</option>
+                            <option value="2">02 - Autorização permanente</option>
+                        </select>
 
+                        <ul>
+                            <li>
+                                <label>De:</label>
+                                <input type="date" id="date" name="dt-inicial">
+                            </li>
+                            <li>
+                                <label>De:</label>
+                                <input type="date" id="date" name="dt-final">
+                            </li>
+                        </ul>
+
+                        <ul>
+                            <li>
+                                <label>De:</label>
+                                <input type="time" id="time" name="hr-inicial">
+                            </li>
+                            <li>
+                                <label>De:</label>
+                                <input type="time" id="time" name="hr-final">
+                            </li>
+                        </ul>
+
+                        <button>SALVAR AUTORIZAÇÃO</button>
                         
                     </div>
                 </div>

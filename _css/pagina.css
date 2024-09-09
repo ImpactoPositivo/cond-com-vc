@@ -47,7 +47,10 @@
     --cor4: #4ea7f4;    
     --cor5: #bb9828;
     --cor6: #b8b8b8;
-    --cor6: #b8b8b8;
+    --cor6: #6c6c6c;
+    --cor8: #ffffff;
+    --cor9: #000000;
+
 
     --fonte1: 'roboto-thin','helvetica','sans-serif';
     --fonte2: 'roboto-light','helvetica','sans-serif';
@@ -55,6 +58,8 @@
     --fonte4: 'roboto-medium','helvetica','sans-serif';
     --fonte5: 'roboto-bold','helvetica','sans-serif';
 }
+
+
 
 .menu {
     display: flex;
@@ -86,11 +91,13 @@
 
 .res-itens h1{
   font-family: var(--fonte4);
-  color: white;
+  color: var(--cor8);
   font-size: 1.3rem;
   text-align: left;
   padding: 10px 5px;
 }
+
+/* --------- zeladoria.html -------- */
 
 .dem-detail{
   padding-top: 20px;
@@ -98,7 +105,7 @@
 
 .dem-detail h1{
   font-family: var(--fonte4);
-  color: white;
+  color: var(--cor8);
   font-size: 1.3rem;
   text-align: left;
   padding: 20px;
@@ -242,7 +249,7 @@
   background-color: var(--cor1);
   font-family: var(--fonte5);
   max-width: 50%;
-  color: white;
+  color: var(--cor8);
   padding: 5px 15px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -403,13 +410,15 @@
 .label-detail #lista button{
   background-color: var(--cor2);
   font-family: var(--fonte3);
-  color: white;
+  color: var(--cor8);
   font-weight: bold;
   border: none;
   width: 263px;
   padding: 5px;
   margin: 5px;
 }
+
+/* --------- cadastro.html 
 
 .data-detail .foto-cadastro{
   display: flex;
@@ -439,7 +448,7 @@
   font-family: var(--fonte5);
   padding: 5px 20px 0px 20px;
   background-color: var(--cor1);
-  color: white;
+  color: var(--cor8);
   border: 1px solid #034c8c;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -448,8 +457,6 @@
 .cad-detail{
   padding: 15px 0px;
 }
-
-/* --------- cadastro.html -------- */
 
 .cad-detail .cad-registro{
   display: flex;
@@ -482,35 +489,4 @@
 .cad-detail .campo input{
   width: 70vw;
 }
-
-/* --------- visita.html -------- */
-
-.cad-detail .reg-visita nav ul {
-  display: flex;
-  flex-direction: row;
-  list-style-type: none;
-}
-
-.cad-detail .reg-visita nav ul li{
-  width: 100%;
-}
-
-.cad-detail nav ul li.selected a{
-  font-family: var(--fonte3);
-  font-size: .9rem;
-  text-decoration: none;
-  text-align: center;
-  padding: 5px 10px;
-  background-color: var(--cor3);
-  color: var(--cor2);
-}
-
-.cad-detail nav ul li a{
-  font-family: var(--fonte3);
-  font-size: .9rem;
-  text-decoration: none;
-  text-align: center;
-  padding: 5px 10px;
-  background-color: var(--cor5);
-  color: var(--cor6);
-}
+-------- */
