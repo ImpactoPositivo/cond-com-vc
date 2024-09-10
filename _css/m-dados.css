@@ -70,36 +70,35 @@
   max-height: 2400px;
 }
 
-
 .my-dados .bar-up {
-    background-color: var(--cor9);
-    display: flex;
-    justify-content: space-between;
-    padding: 3px 0px;
-    height: 5vh;
+  background-color: var(--cor9);
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 0px;
+  height: 5vh;
 }
 
 .my-dados .bar-up .itens-up {
-display: flex;
+  display: flex;
 }
 
 .my-dados .bar-up .itens-up li{
-padding: 5px 10px;
-list-style-type: none;
+  padding: 5px 10px;
+  list-style-type: none;
 }
 
 .my-dados .bar-up .itens-up li img{
-height: 3vh;
-padding: 1px;
+  height: 3vh;
+  padding: 1px;
 }
   
 .my-dados .bar-up .itens-up li p{
-font-family: var(--fonte1);
-color: var(--cor3);
-font-size: 1.2rem;
+  font-family: var(--fonte1);
+  color: var(--cor3);
+  font-size: 1.2rem;
 }
 
-.my-dados .res-detail {
+.my-dados .res-detail{
     display: flex;
     justify-content: left;
     vertical-align: middle;
@@ -112,13 +111,13 @@ font-size: 1.2rem;
 .my-dados .res-detail li a img{
     max-height: 3vh;
     margin-left: 10px;
-  }
+}
   
-  .my-dados .res-detail li h2{
-    font-family: var(--fonte5);
-    color: var(--cor2);
-    font-size: .8rem;
-    padding-left: 40px;
+.my-dados .res-detail li h2{
+  font-family: var(--fonte5);
+  color: var(--cor2);
+  font-size: .8rem;
+  padding-left: 40px;
 }
 
 .dados{
@@ -140,121 +139,120 @@ font-size: 1.2rem;
     height: 23vh;
     position: relative;
     background-color: var(--cor6);
-  }
+}
   
-  .dados .my-foto img{
-    height: 70%;
-    padding: 5px;
-    margin: auto;
-  }
+.dados .my-foto img{
+  height: 70%;
+  padding: 5px;
+  margin: auto;
+}
 
-  .dados .my-foto .editar{
-    height: 5vw;
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    padding: 3px;
-    background-color: var(--cor8);
-    border: 2px solid var(--cor8);
-    border-radius: 50%;
-  }
+.dados .my-foto .editar{
+  height: 3vw;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  padding: 5px;
+  background-color: var(--cor8);
+  border: 2px solid var(--cor8);
+  border-radius: 50%;
+}
 
-  .dados .my-foto h1{
-    font-family: var(--fonte5);
-    font-size: .9rem;
-    padding: 5px 10px 0px 10px;
-    background-color: var(--cor8);
-    color: var(--cor2);
-    border: 1px solid white;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-  }
+.dados .my-foto h1{
+  font-family: var(--fonte5);
+  font-size: .9rem;
+  padding: 5px 10px 0px 10px;
+  background-color: var(--cor8);
+  color: var(--cor2);
+  border: 1px solid white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
 
-  .dados .my-detail{
-    display: flex;
-    flex-direction: column;
-  }
+.dados .my-detail{
+  display: flex;
+  flex-direction: column;
+}
 
-  .dados .my-detail .reg-dados{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    vertical-align: middle;
-    margin: 10px 0px;
-  }
+.dados .my-detail .reg-dados{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  vertical-align: middle;
+  margin: 10px 0px;
+}
 
-  .dados .my-detail .reg-dados figure{
-    display: flex;
-    align-items: center;
-  } 
+.dados .my-detail .reg-dados figure{
+  display: flex;
+  align-items: center;
+} 
   
-  .dados .my-detail .reg-dados figure img{
-    height: 4vh;
+.dados .my-detail .reg-dados figure img{
+  height: 4vh;
+}
 
-  }
-  
-  .dados .my-detail .reg-dados .campo{
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    margin-left: 10px;
-  }
-  
-  .dados .my-detail .reg-dados .campo label{
-    font-family: var(--fonte1);
-    font-size: .8rem;
-    color: var(--cor7);
-    padding-bottom: 4px;
-  }
-  
-  .dados .my-detail .reg-dados .campo input{
-    width: 70vw;
-  }
+.dados .my-detail .reg-dados .campo{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-left: 10px;
+}
 
-  .dados .my-detail button{
-    background-color: var(--cor2);
-    font-family: var(--fonte4);
-    color: var(--cor8);
-    padding: 5px 15px;
-    border: none;
-    margin: 5px auto;
-    border-radius: 10px;
-    justify-content: center;
-  }
+.dados .my-detail .reg-dados .campo label{
+  font-family: var(--fonte1);
+  font-size: .8rem;
+  color: var(--cor7);
+  padding-bottom: 4px;
+}
 
-  .bar-down {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    padding-top: 10px;
-    list-style-type: none;
-  }
-  
-  .bar-down a li {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 70px;
-    min-width: 70px;
-    text-decoration: none;
-  }
-  
-  .bar-down a li img{
-    height: 3vh;
-    padding: 1px;
-  }
-  
-  .bar-down a li p{
-    font-family: var(--fonte1);
-    color: var(--cor2);
-    font-size: .8rem;
-    padding-top: 5px;
-    text-decoration: none;
-  }
-  
-  .bar-down a li a:hover{
-    background-color: var(--cor8);
-    text-decoration: none;
-  }
+.dados .my-detail .reg-dados .campo input{
+  width: 70vw;
+}
+
+.dados .my-detail button{
+  background-color: var(--cor2);
+  font-family: var(--fonte4);
+  color: var(--cor8);
+  padding: 5px 15px;
+  border: none;
+  margin: 5px auto;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.bar-down {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  list-style-type: none;
+}
+
+.bar-down a li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 70px;
+  min-width: 70px;
+  text-decoration: none;
+}
+
+.bar-down a li img{
+  height: 3vh;
+  padding: 1px;
+}
+
+.bar-down a li p{
+  font-family: var(--fonte1);
+  color: var(--cor2);
+  font-size: .8rem;
+  padding-top: 5px;
+  text-decoration: none;
+}
+
+.bar-down a li a:hover{
+  background-color: var(--cor8);
+  text-decoration: none;
+}
