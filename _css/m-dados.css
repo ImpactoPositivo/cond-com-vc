@@ -137,8 +137,8 @@
     align-items: center;
     min-width: 90vw;
     height: 23vh;
-    position: relative;
     background-color: var(--cor6);
+    position: relative;
 }
   
 .dados .my-foto img{
@@ -147,14 +147,14 @@
   margin: auto;
 }
 
-.dados .my-foto .editar{
-  height: 3vw;
+.dados .my-foto .adiciona img{
   position: absolute;
-  top: 5px;
-  right: 5px;
+  height: 5vw;
+  bottom: 25%;
+  right: 32%;
   padding: 5px;
-  background-color: var(--cor8);
-  border: 2px solid var(--cor8);
+  background-color: var(--cor1);
+  border: 2px solid var(--cor1);
   border-radius: 50%;
 }
 
