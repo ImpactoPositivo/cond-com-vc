@@ -447,6 +447,7 @@
   align-items: center;
   justify-content: space-between;
   background-color: var(--cor8);
+  border-radius: 10px;
   margin: 7px -10px;
 }
 
