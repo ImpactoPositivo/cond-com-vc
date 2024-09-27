@@ -255,7 +255,21 @@
   border-top-right-radius: 10px;
   position: absolute;
   bottom: 0;
-  left: 25%;
+  text-align: center;
+}
+
+.data-detail .pic-detail h2{
+  background-color: var(--cor1);
+  font-family: var(--fonte5);
+  font-size: 1rem;
+  max-width: 50%;
+  color: var(--cor8);
+  padding: 5px 15px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
 }
 
 .data-detail .label-detail{
@@ -384,6 +398,7 @@
   color: var(--cor2);
   font-weight: bold;
   border: none;
+  border-radius: 5px;
   width: 263px;
   padding: 5px;
   margin: 5px 0px;
@@ -417,6 +432,68 @@
   padding: 5px;
   margin: 5px;
 }
+
+/* --------- encomenda.html -------- */
+
+.data-detail .label-detail .encomenda{
+  display: flex;
+  flex-direction: column;
+}
+
+.data-detail .label-detail .encomenda li{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--cor8);
+  margin: 7px 0px;
+}
+
+.data-detail .label-detail .encomenda li img{
+  width: 10vw;
+  background-color: var(--cor1);
+  border-radius: 50%;
+  padding: 5px;
+  margin: 5px;
+}
+
+.data-detail .label-detail .encomenda li .enc-detail{
+  margin-left: -5px;
+}
+
+.data-detail .label-detail .encomenda li .enc-detail h1{
+  font-size: .9rem;
+  font-weight: bold;
+  text-align: left;
+  color: var(--cor1);
+  padding: 0px;
+}
+
+.data-detail .label-detail .encomenda li .enc-detail p{
+  font-size: .7rem;
+  color: var(--cor1);
+  text-align: left;
+}
+
+.data-detail .label-detail .encomenda .enc-time{
+  margin-right: 5px;
+}
+
+.data-detail .label-detail .encomenda li .enc-time h1{
+  font-size: .7rem;
+  font-weight: bold;
+  text-align: right;
+  color: var(--cor6);
+  padding-bottom: 2px;
+}
+
+.data-detail .label-detail .encomenda li .enc-time p{
+  font-size: .6rem;
+  color: var(--cor6);
+  text-align: right;
+  padding-top: 2px;
+}
+
 
 /* --------- cadastro.html 
 
