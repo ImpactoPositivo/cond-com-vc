@@ -103,18 +103,36 @@
   padding-top: 20px;
 }
 
-.dem-detail h1{
+.dem-detail .dem-menu{
+  display: flex;
+  list-style-type: none;
+  padding-bottom: 10px;
+  margin-left: 20px;
+}
+
+.dem-detail .dem-menu li a{
+  font-family: var(--fonte4);
+  color: var(--cor6);
+  font-size: 1.1rem;
+  width: 20vw;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.dem-detail .dem-menu li a:hover{
+  background-color: var(--cor4);
   font-family: var(--fonte4);
   color: var(--cor8);
-  font-size: 1.3rem;
-  text-align: left;
-  padding: 20px;
+  font-size: 1.1rem;
+  width: 20vw;
+  padding: 10px 20px;
+  text-decoration: none;
 }
 
 .demandas {
   background-color: var(--cor1);
   width: 90vw;
-  max-height: 60vh;
+  height: 60vh;
   margin: auto;
   border-radius: 10px;
   overflow: hidden;
