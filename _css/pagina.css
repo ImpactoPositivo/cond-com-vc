@@ -438,15 +438,16 @@
 .data-detail .label-detail .encomenda{
   display: flex;
   flex-direction: column;
+  list-style: none;
+
 }
 
 .data-detail .label-detail .encomenda li{
   display: flex;
-  list-style: none;
   align-items: center;
   justify-content: space-between;
   background-color: var(--cor8);
-  margin: 7px 0px;
+  margin: 7px -10px;
 }
 
 .data-detail .label-detail .encomenda li img{
@@ -488,82 +489,8 @@
 }
 
 .data-detail .label-detail .encomenda li .enc-time p{
-  font-size: .6rem;
+  font-size: .55rem;
   color: var(--cor6);
   text-align: right;
-  padding-top: 2px;
+  padding-top: 3px;
 }
-
-
-/* --------- cadastro.html 
-
-.data-detail .foto-cadastro{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-width: 90vw;
-  height: 23vh;
-  position: relative;
-  background-color: var(--cor6);
-}
-
-.data-detail .foto-cadastro img{
-  height: 70%;
-  padding: 5px;
-  margin: auto;
-}
-
-.data-detail .foto-cadastro .agenda{
-  height: 10vw;
-  position: absolute;
-  bottom: 3px;
-  right: 3px;
-}
-
-.data-detail .foto-cadastro h1{
-  font-family: var(--fonte5);
-  padding: 5px 20px 0px 20px;
-  background-color: var(--cor1);
-  color: var(--cor8);
-  border: 1px solid #034c8c;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-}
-
-.cad-detail{
-  padding: 15px 0px;
-}
-
-.cad-detail .cad-registro{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  vertical-align: middle;
-  margin: 15px 0px;
-}
-
-.cad-detail .cad-registro img{
-  height: 4vh;
-  margin-left: 10px;
-  vertical-align: middle;
-}
-
-.cad-detail .campo{
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
-  margin-left: 10px;
-}
-
-.cad-detail .campo label{
-  font-family: var(--fonte1);
-  font-size: .8rem;
-  color: var(--cor6);
-  padding-bottom: 4px;
-}
-
-.cad-detail .campo input{
-  width: 70vw;
-}
--------- */
