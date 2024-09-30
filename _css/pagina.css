@@ -79,12 +79,15 @@
 
 .menu li a:hover{
   color: var(--cor3);
-  padding-bottom: 28px;
-  padding-left: 35px;
-  padding-right: 35px;
-  border-bottom: 6px solid #4ea7f4;
+  padding: 0px 15px 19px 15px;
+  border-bottom: 5px solid #4ea7f4;
 }
 
+.menu .ativa a{
+  color: var(--cor3);
+  padding: 0px 15px 19px 15px;
+  border-bottom: 5px solid #4ea7f4;
+}
 .res-itens{
   padding: 15px 0px;
 }
@@ -99,11 +102,7 @@
 
 /* --------- zeladoria.html -------- */
 
-.menu .ativa a{
-  color: var(--cor3);
-  padding: 0px 15px 19px 15px;
-  border-bottom: 5px solid #4ea7f4;
-}
+
 
 .dem-detail{
   padding-top: 20px;
