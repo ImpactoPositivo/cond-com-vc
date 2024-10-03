@@ -324,10 +324,13 @@
   color: var(--cor2);
 }
 
-.dem-detail .dem-foto img{
+.dem-detail .dem-foto figure{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: center; 
+}
+
+
+.dem-detail .dem-foto img{
   height: 15vh;
   background-color: rgba(184, 184, 184, 0.508);
   padding: 4vh 12vh;
@@ -336,11 +339,50 @@
 }
 
 .dem-detail .dem-foto h2{
-  font-family: var(--fonte2);
+  font-family: var(--fonte1);
   font-size: .85rem;
-  color: var(--cor6);
+  font-weight: 100;
+  color: var(--cor8);
   position: absolute;
-  text-align: center;
-  bottom: 10px;
-  left: 70px;
+  bottom: 15px;
+}
+
+form{
+  min-width: 65vw;
+}
+
+form .input-address{
+  position: relative;
+}  
+
+form .input-address .input{
+  display: flex;
+  flex-direction: row;
+  width: 65vw;
+  justify-content: center;
+  border: none;
+  box-shadow: 1px 1px 5px var(--cor6);  
+  margin: 30px auto;
+  padding: 10px;
+}
+
+form .input-address label{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  bottom: 0px;
+  left: 0px;
+}
+
+.input-address label img{
+  height: 3vh;
+  padding: 0px 15px;
+  margin-left: 10vw;
+}
+
+.input-address label h1{
+  color: var(--cor6);
+  font-family: var(--fonte1);
+  font-weight: 100;
+  font-size: 1.2rem;
 }

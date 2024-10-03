@@ -64,7 +64,7 @@
 .menu {
     display: flex;
     justify-content: space-around;
-    padding: 20px 0PX;
+    padding: 20px 0px;
     margin: auto;
     list-style-type: none;
     border-bottom: 2px solid #034c8c;
@@ -102,8 +102,6 @@
 
 /* --------- zeladoria.html -------- */
 
-
-
 .dem-detail{
   padding-top: 20px;
 }
@@ -114,7 +112,6 @@
   padding: 10px 0px;
   margin-left: 20px;
 }
-
 
 .dem-detail .dem-menu .ativa a{
   background-color: var(--cor1);
@@ -163,6 +160,10 @@
   width: 2px;
   background-color: var(--cor1);
   border-radius: 2px;
+}
+
+.demandas::-webkit-scrollbar-track{
+  background-color: var(--cor2);
 }
 
 .demandas::-webkit-scrollbar-thumb{
@@ -477,7 +478,6 @@
   display: flex;
   flex-direction: column;
   list-style: none;
-
 }
 
 .data-detail .label-detail .encomenda li{
@@ -533,3 +533,74 @@
   text-align: right;
   padding-top: 3px;
 }
+
+/* --------- vizinhos.html -------- */
+
+.dem-detail .demandas .encomendas{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.dem-detail .demandas .encomenda li{
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--cor8);
+  border-radius: 10px;
+  margin: 7px auto;
+}
+
+.dem-detail .demandas .encomenda li img{
+  width: 10vw;
+  background-color: var(--cor1);
+  border-radius: 50%;
+  padding: 5px;
+  margin: 5px;
+}
+
+.dem-detail .demandas .encomenda li .enc-detail{
+  margin-left: -5px;
+}
+
+.dem-detail .demandas .encomenda li .enc-detail h1{
+  font-size: .9rem;
+  font-weight: bold;
+  text-align: left;
+  color: var(--cor1);
+  padding: 0px;
+}
+
+.dem-detail .demandas .encomenda li .enc-detail p{
+  font-size: .7rem;
+  color: var(--cor1);
+  text-align: left;
+}
+
+.dem-detail .demandas .encomenda li img.enc-detail{
+  width: 10vw;
+  background-color: var(--cor8);
+}
+
+.dem-detail .demandas .encomenda .enc-time{
+  margin-right: 5px;
+}
+
+.dem-detail .demandas .encomenda li .enc-time h1{
+  font-size: .7rem;
+  font-weight: bold;
+  text-align: right;
+  color: var(--cor6);
+  padding-bottom: 2px;
+}
+
+.dem-detail .demandas .encomenda li .enc-time p{
+  font-size: .55rem;
+  color: var(--cor6);
+  text-align: right;
+  padding-top: 3px;
+}
+
+
+
