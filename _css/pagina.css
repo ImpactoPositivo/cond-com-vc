@@ -174,11 +174,13 @@
 .demandas ul{
   list-style-type: none;
   padding: 10px;
+  text-decoration: none;  
 }
 
 .demandas ul li{
   display: flex;
-  padding-bottom: 9px;    
+  padding-bottom: 9px;
+  text-decoration: none;
 }
 
 .demandas ul li a img{
@@ -187,13 +189,16 @@
   vertical-align: middle;
 }
 
-.demandas ul li span{
+.demandas ul li a span{
   font-family: var(--fonte2);
   font-size: 1rem;
   color: var(--cor3);
+  text-decoration: none; 
 }
 
-.areas{
+/* --------- reservas.html -------- */
+
+.res-itens .areas{
   background-color: var(--cor2);
   display: flex;
   justify-content: space-around;
@@ -205,37 +210,49 @@
   border-radius: 10px;
 }
 
-.areas a{
+.res-itens .areas a{
   background-color: var(--cor1);
   width: 40vw;
   height: 20vh;
   border-radius: 10px;
 }
 
-.itens{
+.res-itens .areas a .flex .itens{
   display: block;
   align-items: normal;
 }
 
-.areas a img{
+.res-itens .areas a .flex .itens img{
   padding: 10px 5px 5px 5px;
 }
 
-.areas a h1{
+.res-itens .areas a .flex .itens h1{
   font-family: var(--fonte4);
+  text-decoration: none;
   font-size: .9rem;
   color: var(--cor6);
   text-align: left;
   padding: 5px;
 }
 
-.areas a p{
+.res-itens .areas a .flex .itens p{
   font-family: var(--fonte1);
+  text-decoration: none;
   font-size: .8rem;
   color: var(--cor6);
   text-align: left;
   padding: 5px;
 }
+
+.res-itens .areas a .flex .itens h1:hover{
+  text-decoration: none;
+}
+
+.res-itens .areas a .flex .itens p:hover{
+  text-decoration: none;
+}
+
+/*------------------------- */
 
 .res-detail {
   display: flex;
