@@ -95,7 +95,7 @@
   padding: 10px 5px;
 }
 
-.res-detail {
+a .res-detail {
   display: flex;
   justify-content: left;
   vertical-align: middle;
@@ -105,12 +105,12 @@
   border-bottom: 5px solid #4ea7f4;
 }
 
-.res-detail li a img{
+a .res-detail li img{
   max-height: 3vh;
   margin-left: 10px;
 }
 
-.res-detail li h2{
+a .res-detail li h2{
   font-family: var(--fonte5);
   color: var(--cor3);
   font-size: .8rem;

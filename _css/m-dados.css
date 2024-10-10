@@ -120,6 +120,32 @@
   padding-left: 40px;
 }
 
+/*------------------------- */
+
+a .res-detail {
+  display: flex;
+  justify-content: left;
+  vertical-align: middle;
+  align-items: center;
+  padding-top: 20px;
+  list-style-type: none;
+  border-bottom: 5px solid #4ea7f4;
+}
+
+a .res-detail li img{
+  max-height: 3vh;
+  margin-left: 10px;
+}
+
+a .res-detail li> h2{
+  font-family: var(--fonte5);
+  color: var(--cor3);
+  font-size: .8rem;
+  padding-left: 40px;
+}
+
+/*------------------------- */
+
 .dados{
     background-color: var(--cor8);
     margin: auto;
