@@ -70,6 +70,8 @@ body {
   max-height: 2400px;
 }
 
+
+
 .bar-up {
   background-color: var(--cor9);
   display: flex;
@@ -125,7 +127,7 @@ section h1 {
 
 .aviso {
   background-color: var(--cor8);
-  width: 90vw;
+  width: 90%;
   height: 10vh;
   margin: 20px auto;
   border-radius: 10px;
@@ -139,7 +141,7 @@ section h1 {
 
 .func {
   background-color: var(--cor1);
-  width: 90vw;
+  width: 90%;
   max-height: 50vh;
   margin: auto;
   border-radius: 10px;
@@ -229,4 +231,11 @@ section h1 {
 .bar-down a li a:hover{
   background-color: var(--cor4);
   text-decoration: none;
+}
+
+@media (max-widith: 1600px){
+  body {
+    max-width: 1080px;
+    max-height: 2400px;
+  }
 }

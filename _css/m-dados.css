@@ -59,8 +59,15 @@
 }
 
 * {
-    padding: 0px;
-    margin: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+background-color: var(--cor2);
+font-family: var(--fonte3);
+max-width: 1080px;
+max-height: 2400px;
 }
 
 .my-dados {
@@ -281,4 +288,11 @@ a .res-detail li> h2{
 .bar-down a li a:hover{
   background-color: var(--cor8);
   text-decoration: none;
+}
+
+@media (max-widith: 1600px){
+  body {
+    max-width: 1080px;
+    max-height: 2400px;
+  }
 }

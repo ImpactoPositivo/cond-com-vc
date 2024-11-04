@@ -59,6 +59,18 @@
     --fonte5: 'roboto-bold','helvetica','sans-serif';
 }
 
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+background-color: var(--cor2);
+font-family: var(--fonte3);
+max-width: 1080px;
+max-height: 2400px;
+}
+
 .menu {
   display: flex;
   justify-content: space-around;
@@ -385,4 +397,11 @@ form .input-address label{
   font-family: var(--fonte1);
   font-weight: 100;
   font-size: 1.2rem;
+}
+
+@media (max-widith: 1600px){
+  body {
+    max-width: 1080px;
+    max-height: 2400px;
+  }
 }

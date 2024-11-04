@@ -59,7 +59,17 @@
     --fonte5: 'roboto-bold','helvetica','sans-serif';
 }
 
+* {
+  padding: 0px;
+  margin: 0px;
+}
 
+body {
+background-color: var(--cor2);
+font-family: var(--fonte3);
+max-width: 1080px;
+max-height: 2400px;
+}
 
 .menu {
     display: flex;
