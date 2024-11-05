@@ -68,9 +68,8 @@ body {
   font-family: var(--fonte3);
   max-width: 1080px;
   max-height: 2400px;
+  margin: auto;
 }
-
-
 
 .bar-up {
   background-color: var(--cor9);

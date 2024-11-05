@@ -117,13 +117,14 @@ max-height: 2400px;
 }
 
 .dem-detail .dem-menu{
-  width: 90vw;
+  width: 90%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: left;
   list-style-type: none;
   text-decoration: none;
   padding: 0px;
+  margin-left: 5%;
 }
 
 .dem-detail .dem-menu .ativa a{
@@ -156,7 +157,7 @@ max-height: 2400px;
 
 .demandas {
   background-color: var(--cor1);
-  width: 90vw;
+  width: 90%;
   height: 60vh;
   margin: auto;
   border-top-right-radius: 10px;
@@ -215,14 +216,14 @@ max-height: 2400px;
   row-gap: 10px;
   margin: 10px 10px;
   flex-wrap: wrap;
-  width: 90vw;
+  width: 92%;
   margin: auto;
   border-radius: 10px;
 }
 
 .res-itens .areas a{
   background-color: var(--cor1);
-  width: 40vw;
+  width: 45%;
   height: 20vh;
   border-radius: 10px;
 }
@@ -234,6 +235,7 @@ max-height: 2400px;
 
 .res-itens .areas a .flex .itens img{
   padding: 10px 5px 5px 5px;
+  width: 20%;
 }
 
 .res-itens .areas a .flex .itens h1{
