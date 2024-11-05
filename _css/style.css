@@ -155,7 +155,7 @@ section h1 {
   color: var(--cor8);
 }
 
-.container {
+.func .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -165,28 +165,28 @@ section h1 {
   padding-bottom: 15px;
 }
 
-.container a{
-  max-height: 95px;
-  max-width: 95px;
+.func .container a{
+  max-height: 27%;
+  max-width: 27%;
   text-decoration: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.itens{
+.func .container a .flex .itens{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.container a .flex a:hover {
+.func .container a .flex a:hover {
   background-color: var(--cor4);
   text-decoration: none;
 }
 
-.itens img {
+.func .container a .flex .itens img {
   max-height: 5vh;
 }
 
@@ -237,5 +237,9 @@ section h1 {
   body {
     max-width: 1080px;
     max-height: 2400px;
+  }
+
+  .func .container a .flex .itens img {
+    max-height: 15vh;
   }
 }
